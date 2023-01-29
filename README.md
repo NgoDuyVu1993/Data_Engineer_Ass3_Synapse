@@ -12,5 +12,5 @@
 - Run Python code "ProjectDataToPostgres.ipynb" to send data to PostgresSQL database
 
 ## Set Up Details
-Before create any Azure Service, we must create Resource Group
-![alt text](https://github.com/NgoDuyVu1993/Data_Engineer_Ass3_Synapse/image/Create%20Resource%Group.jpg)
+Before create any Azure Service, we must create Resource Group </br>
+![alt text](https://github.com/NgoDuyVu1993/Data_Engineer_Ass3_Synapse/blob/main/image/Create%20Resource%20Group.jpg)

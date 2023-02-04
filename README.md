@@ -18,8 +18,8 @@ Before create any Azure Service, we must create Resource Group </br>
 
 Create Azure PostgresSQL to host the data, Noticed that we must configure the Firewall to allow Jupyter Notebook to send data to the Database </br>
 ![alt text](https://github.com/NgoDuyVu1993/Data_Engineer_Ass3_Synapse/blob/main/image/Create%20Azure%20PostgreSQL%20Database.png)
-We can only Azure Services Access if the PostgresSQL did not have Firewall setup </br>
-![alt text](https://github.com/NgoDuyVu1993/Data_Engineer_Ass3_Synapse/blob/main/image/Allow%20Azure%20Service%20Access.jpg)
+We can only send data to Azure Database Postgres if the Firewall is setup, please check if Azure Postgres has Public access and create Firewall rule</br>
+![alt text](https://github.com/NgoDuyVu1993/Data_Engineer_Ass3_Synapse/blob/main/image/Allow%20Azure%20Posgres%20Service%20Access.jpg)
 
 Create an Azure Synapse workspace </br>
 ![alt text](https://github.com/NgoDuyVu1993/Data_Engineer_Ass3_Synapse/blob/main/image/Create%20Azure%20Synapse.png)

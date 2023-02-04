@@ -39,3 +39,11 @@ After running Jupyter Notebook to send data to Azure Database for PostgresSQL, w
 
 We can running the SQL code to retrieve data on the Postgres Database </br>
 ![alt text](https://github.com/NgoDuyVu1993/Data_Engineer_Ass3_Synapse/blob/main/image/Check%20Data%20on%20Azure%20Postgres.jpg)
+
+
+# Start Ingesting Data
+To ingest data, we need to Link Services for Azure Database for PostgresSQL </br>
+![alt text](https://github.com/NgoDuyVu1993/Data_Engineer_Ass3_Synapse/blob/main/image/Set%20Up%20Linked%20Service%20Postgres.jpg)
+
+And create Link Services for Azure Database for PostgresSQL Azure </br>
+![alt text](https://github.com/NgoDuyVu1993/Data_Engineer_Ass3_Synapse/blob/main/image/Create%20Pipeline%20and%20Ingest%20Data.png)

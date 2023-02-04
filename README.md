@@ -45,5 +45,10 @@ We can running the SQL code to retrieve data on the Postgres Database </br>
 To ingest data, we need to Link Services for Azure Database for PostgresSQL </br>
 ![alt text](https://github.com/NgoDuyVu1993/Data_Engineer_Ass3_Synapse/blob/main/image/Set%20Up%20Linked%20Service%20Postgres.jpg)
 
-And create Link Services for Azure Database for PostgresSQL Azure </br>
-![alt text](https://github.com/NgoDuyVu1993/Data_Engineer_Ass3_Synapse/blob/main/image/Create%20Pipeline%20and%20Ingest%20Data.png)
+And create Link Services for Azure Database for Azure Blob Storage </br>
+
+After setting Link Services for PostgresSQL and Blob Storage, we can start to ingest (create pipeline) data from PostgresSQL to Blog Storage </br>
+![alt text](https://github.com/NgoDuyVu1993/Data_Engineer_Ass3_Synapse/blob/main/image/Set%20Up%20Linked%20Service%20Blob%20Storage.jpg)
+
+The result of Ingestion data on Synapse </br>
+![alt text](https://github.com/NgoDuyVu1993/Data_Engineer_Ass3_Synapse/blob/main/image/Create%20Pipeline%20and%20Ingest%20Data.jpg)

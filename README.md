@@ -33,3 +33,9 @@ Create an Azure Synapse workspace </br>
 Before run the code in the Jupyter Notebook, we must provide the host, username and password. The host can be seen in the Connection tab on Azure Postgres, the username and password are from when we setup the Postgres Database </br>
 ![alt text](https://github.com/NgoDuyVu1993/Data_Engineer_Ass3_Synapse/blob/main/image/Send%20Data%20to%20Azure%20Postgres%20from%20Jupyter.png)
 
+
+After running Jupyter Notebook to send data to Azure Database for PostgresSQL, we can use pgAdmin to chek if the database exist on the serve </br>
+![alt text](https://github.com/NgoDuyVu1993/Data_Engineer_Ass3_Synapse/blob/main/image/Set%20up%20pgAdmin.jpg)
+
+We can running the SQL code to retrieve data on the Postgres Database </br>
+![alt text](https://github.com/NgoDuyVu1993/Data_Engineer_Ass3_Synapse/blob/main/image/Check%20Data%20on%20Azure%20Postgres.jpg)

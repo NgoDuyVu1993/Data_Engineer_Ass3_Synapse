@@ -59,7 +59,7 @@ The result of Ingestion data on Synapse </br>
 
 # Create Staging Tables
 After data was ingested from PostgresSQL to Blog Storage, we can run SQL to create Staging tables. We can create external tables by running Dedicate SQL Pool </br>
-![alt text](https://github.com/NgoDuyVu1993/Data_Engineer_Ass3_Synapse/blob/main/image/Create%20Dedicated%20SQL%20Pool%20for%20Synapse.jpg)
+![alt text](https://github.com/NgoDuyVu1993/Data_Engineer_Ass3_Synapse/blob/main/image/Create%20Staging%20External%20Tables.jpg)
 
 Running the SQL to created for each tables </br>
 ![alt text](https://github.com/NgoDuyVu1993/Data_Engineer_Ass3_Synapse/blob/main/image/Staging%20Tables.jpg)

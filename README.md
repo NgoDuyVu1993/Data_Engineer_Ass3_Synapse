@@ -25,6 +25,9 @@ Create an Azure Synapse workspace </br>
 ![alt text](https://github.com/NgoDuyVu1993/Data_Engineer_Ass3_Synapse/blob/main/image/Create%20Azure%20Synapse.png)
 
 
+Create a Dedicate SQL Pool in the Synapse Workspace
+![alt text](https://github.com/NgoDuyVu1993/Data_Engineer_Ass3_Synapse/blob/main/image/Create%20Dedicated%20SQL%20Pool%20for%20Synapse.jpg)
+
 ## Setup Python code to ingest 
 - Create python environment: `conda create --name data-engineer python` </br>
 - Activate the environment: `conda activate data-engineer` </br>
@@ -53,3 +56,10 @@ After setting Link Services for PostgresSQL and Blob Storage, we can start to in
 
 The result of Ingestion data on Synapse </br>
 ![alt text](https://github.com/NgoDuyVu1993/Data_Engineer_Ass3_Synapse/blob/main/image/Ingest%20data%20into%20Synapse.jpg)
+
+# Create Staging Tables
+After data was ingested from PostgresSQL to Blog Storage, we can run SQL to create Staging tables. We can create external tables by running Dedicate SQL Pool </br>
+![alt text](https://github.com/NgoDuyVu1993/Data_Engineer_Ass3_Synapse/blob/main/image/Create%20Dedicated%20SQL%20Pool%20for%20Synapse.jpg)
+
+Running the SQL to created for each tables </br>
+![alt text](https://github.com/NgoDuyVu1993/Data_Engineer_Ass3_Synapse/blob/main/image/Staging%20Tables.jpg)

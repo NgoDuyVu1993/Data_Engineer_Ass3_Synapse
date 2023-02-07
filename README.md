@@ -63,3 +63,7 @@ After data was ingested from PostgresSQL to Blog Storage, we can run SQL to crea
 
 Running the SQL to created for each tables </br>
 ![alt text](https://github.com/NgoDuyVu1993/Data_Engineer_Ass3_Synapse/blob/main/image/Staging%20Tables.jpg)
+
+# Create Transformation Tables
+To run SQL query for answer assignment questions, we must tranform the data to Start Scheme </br>
+![alt text](https://github.com/NgoDuyVu1993/Data_Engineer_Ass3_Synapse/blob/main/image/Create%20Transformation%20tables.jpg)
